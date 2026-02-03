@@ -1,0 +1,67 @@
+/* Center entire app */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container (from App.js inline div) */
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Product grid: 2×2 matrix */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 260px);
+  gap: 25px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* Card styling */
+.card {
+  background: 135deg, #1e3c72, #2a5298;
+  padding: 25px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Category badge */
+.electronics {
+  display: inline-block;
+  background-color: #2563eb;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.clothing {
+  display: inline-block;
+  background-color: #93c5fd;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Dropdown styling */
+select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 15px;
+}
