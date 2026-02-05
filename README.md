@@ -1,49 +1,75 @@
-Dynamic Product Filter - Galaxy One Edition
-Student ID: 24BCY70233 Student Name: Abhinav Gurung
+# Dynamic Product Filter (React)
 
-Project Overview
-A responsive dynamic product filter application with the Galaxy One theme. This React application demonstrates state management and dynamic filtering capabilities with a modern, sleek interface inspired by Samsung's Galaxy One design language.
+## 📌 Project Overview
 
-Objectives
-Implement filterable product data
-Create sortable dropdown UI
-Add responsive product cards
-Animate layout transitions
-Apply Galaxy One theme design
-Features
-Dynamic product filtering by category
-Responsive grid layout
-Smooth hover animations
-Modern Galaxy One color scheme
-Mobile-friendly design
-Technology Stack
-Framework: React 19.2.4
-Styling: CSS3 with Galaxy One theme
-Build Tool: React Scripts 5.0.1
-Testing: React Testing Library
-Hardware Requirements
-Processor: Intel i3/Ryzen 3 or higher
-RAM: 4GB minimum
-Display: 1366768 resolution
-Software Requirements
-Node.js 14+ and npm
-VS Code or equivalent editor
-Modern web browser (Chrome, Firefox, Safari)
-Installation & Setup
-\\�ash npm install npm start \\
+This project is a **Dynamic Product Filter** built using **plain React (Create React App)**. It allows users to filter products dynamically based on selected criteria. This project **does NOT use Next.js**.
 
-The application will open at \http://localhost:3000\
+## 🚀 Tech Stack
 
-Build for Production
-\\�ash npm run build \\
+* React (CRA)
+* JavaScript (ES6)
+* HTML5
+* CSS3
 
-Deployment
-Deployed on Netlify for live access.
+## ❌ Not Used
 
-Galaxy One Theme
-The application features a sophisticated color scheme inspired by Samsung's Galaxy One design:
+* Next.js
+* Server-side rendering (SSR)
 
-Deep space navy backgrounds
-Vibrant accent colors
-Smooth gradients and transitions
-Modern typography
+## 📂 Project Structure
+
+```
+├── public/
+├── src/
+│   ├── components/
+│   ├── data/
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
+```
+
+## ⚙️ Installation & Setup
+
+```bash
+npm install
+npm start
+```
+
+The app will run at:
+
+```
+http://localhost:3000
+```
+
+## 🌐 Live Demo (GitHub Pages)
+
+✅ **Correct Link:**
+[https://rudrajit01.github.io/24BCY70262-2b-Rudrajit-Pramanik/](https://rudrajit01.github.io/24BCY70262-2b-Rudrajit-Pramanik/)
+
+> If the page does not load, run:
+
+```bash
+npm run deploy
+```
+
+## 📦 Deployment Notes
+
+* Deployed using **gh-pages**
+* `homepage` field is set correctly in `package.json`
+* Build folder is auto-published
+
+## 🎯 Learning Outcomes
+
+* Understand React component-based architecture
+* Implement dynamic filtering using state and props
+* Deploy a React app using GitHub Pages
+
+## 👤 Author
+
+**Rudrajit Pramanik**
+Course: B.Tech | Cyber Security
+
+---
+
+✔️ This is a **plain React project**, not Next.js.
